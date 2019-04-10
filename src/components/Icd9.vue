@@ -1,10 +1,8 @@
 <template>
     <v-container>
         <form class="form-inline mb-3" @submit.prevent="onSubmit">
-            <div class="form-group mr-3">
-                <input class="form-control" name="phecode" id="phecode" aria-label="Enter a phecode" placeholder="Enter a phecode" v-model="phecode">
-            </div>
-            <button class="btn btn-primary" v-on:click="getCodes">Search</button>
+            <v-text-field label='Enter the phecode' v-model="phecode"></v-text-field>
+            <v-btn ml0 color="info" @click="getCodes">Search</v-btn>
         </form>
         <v-data-table
                 :headers="headers"

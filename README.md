@@ -1,29 +1,15 @@
 # cpm-vue
 
-## Project setup
-```
-npm install
+### Local development
+
+To spin up a docker container, first build the image:
+
+```bash
+docker build -t vuejs-cookbook/dockerize-vuejs-app .
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Then build the container with:
 
-### Compiles and minifies for production
 ```
-npm run build
+docker run -it -p 8080:8080 --rm --name dockerize-vuejs-app-1 vuejs-cookbook/dockerize-vuejs-app
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
