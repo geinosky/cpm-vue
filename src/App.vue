@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
+    <v-toolbar app dense>
+      <v-toolbar-title>
         <a href="https://google.com">Center for Precision Medicine</a>
       </v-toolbar-title>
     </v-toolbar>
@@ -10,11 +10,11 @@
         <v-container>
             <v-layout>
 
-                <v-flex mt-4 mb-4>
-                    <h1 class="display-2 font-weight-bold mb-3">
+                <v-flex mt-2>
+                    <h1 class="display-1 mb-2">
                         Search ICD-9 Codes
                     </h1>
-                    <p class="subheading font-weight-regular">
+                    <p>
                         Find a phecode's associated ICD-9 codes.
                     </p>
                 </v-flex>
@@ -28,6 +28,12 @@
 
   </v-app>
 </template>
+
+<style>
+    .v-toolbar__title a {
+        text-decoration: none;
+    }
+</style>
 
 <script>
     import Icd9 from './components/Icd9'
