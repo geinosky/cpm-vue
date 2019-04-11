@@ -33,7 +33,7 @@
                 tile
         >
         <v-card-actions class="justify-center">
-            THIS APPLICATION IS A DEMO
+            Stephen Geinosky - THIS APPLICATION IS A DEMO
         </v-card-actions>
         </v-card>
     </v-footer>
