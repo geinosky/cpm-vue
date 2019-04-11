@@ -1,6 +1,6 @@
 # cpm-vue
 
-### Local development
+## Local development
 
 To spin up a docker container, first build the image:
 
@@ -12,4 +12,12 @@ Then build the container with:
 
 ```
 docker run -it -p 8080:8080 --rm --name dockerize-vuejs-app-1 vuejs-cookbook/dockerize-vuejs-app
+```
+
+## Push to AWS
+
+To push to aws:
+
+```
+amplify publish
 ```
