@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "cpm-vue-20190410163038-authRole",
+            "UnauthRoleArn": "arn:aws:iam::104213777930:role/cpm-vue-20190410163038-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::104213777930:role/cpm-vue-20190410163038-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "cpm-vue-20190410163038-deployment",
+            "UnauthRoleName": "cpm-vue-20190410163038-unauthRole",
+            "StackName": "cpm-vue-20190410163038",
+            "StackId": "arn:aws:cloudformation:us-east-1:104213777930:stack/cpm-vue-20190410163038/4429e8f0-5be0-11e9-a0c3-1251e602a9c6"
+        }
+    }
+}
