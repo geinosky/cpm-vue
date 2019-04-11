@@ -12,10 +12,10 @@
 
                 <v-flex mt-2>
                     <h1 class="display-1 mb-2">
-                        Search ICD-9 Codes
+                        Search for PheCodes
                     </h1>
                     <p>
-                        Find a phecode's associated ICD-9 codes.
+                        Search ICD-9 codes to find its related PheCodes and Phenotypes.
                     </p>
                 </v-flex>
 

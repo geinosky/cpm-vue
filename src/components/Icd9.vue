@@ -2,7 +2,7 @@
     <v-flex>
         <v-flex mb-4>
             <v-form>
-                <v-text-field label='Enter the phecode' v-model="phecode"></v-text-field>
+                <v-text-field label='Enter the PheCode phenotype' v-model="phecode"></v-text-field>
                 <v-btn color="blue-grey darken-3 white--text" @click="getCodes">Search</v-btn>
             </v-form>
         </v-flex>
