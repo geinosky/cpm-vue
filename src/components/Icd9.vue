@@ -3,7 +3,7 @@
         <v-flex mb-4>
             <v-form>
                 <v-text-field label='Enter the phecode' v-model="phecode"></v-text-field>
-                <v-btn color="info" @click="getCodes">Search</v-btn>
+                <v-btn color="blue-grey darken-3 white--text" @click="getCodes">Search</v-btn>
             </v-form>
         </v-flex>
 
@@ -33,10 +33,12 @@
                 errors: [],
                 headers:[
                     {
-                        text: 'ICD-9 Code'
+                        text: 'ICD-9 Code',
+                        sortable: false
                     },
                     {
-                        text: 'Description'
+                        text: 'Description',
+                        sortable: false
                     }
                 ]
             }

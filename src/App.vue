@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <v-toolbar app dense>
+    <v-toolbar app dense class="blue-grey darken-3">
       <v-toolbar-title>
-        <a href="https://google.com">Center for Precision Medicine</a>
+        <a class="white--text" href="https://google.com">Center for Precision Medicine</a>
       </v-toolbar-title>
     </v-toolbar>
 
@@ -25,13 +25,33 @@
             </v-flex>
         </v-container>
     </v-content>
-
+<v-divider></v-divider>
+    <v-footer>
+        <v-card
+                class="flex"
+                flat
+                tile
+        >
+        <v-card-actions class="justify-center">
+            THIS APPLICATION IS A DEMO
+        </v-card-actions>
+        </v-card>
+    </v-footer>
   </v-app>
 </template>
 
 <style>
     .v-toolbar__title a {
         text-decoration: none;
+    }
+
+    .application {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    .display-1,
+    .v-toolbar__title a {
+        font-family: 'Nunito', sans-serif !important;
     }
 </style>
 
